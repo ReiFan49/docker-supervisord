@@ -1,8 +1,8 @@
-# Golang Static Docker Template
+# supervisord Docker
 
-Template to create golang projects statically linked. Only supports Go Modules for now.
+**Not for direct use.**
 
-This repo will be used mostly for personal use. Feel free to improve by forking on your own.
+Combine with other image using `COPY --from=reifan49/supervisord /usr/bin/supervisord /usr/local/bin/supervisord` when building another final image.
 
 ## License
 
